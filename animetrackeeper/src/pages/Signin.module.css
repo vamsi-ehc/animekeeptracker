@@ -2,15 +2,15 @@
     border-radius: 19px;
     box-shadow: 5px;
     border: solid 2px;
-    width: 40%;
+    width: 60%;
     align-content:flex-start;
     
     margin-left: auto;
-    margin-top: auto;
+    margin-top: 20px;
     margin-bottom: auto;
     margin-right: auto;
     padding: 30px;
-    padding-top: 280px;
+    padding-top: 180px;
     color: rgb(255, 255, 255);
     font-weight: bold;
     background-image: url('./bg.jpg');

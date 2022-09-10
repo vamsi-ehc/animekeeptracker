@@ -1,8 +1,12 @@
+import { Typography } from '@mui/material'
 import React from 'react'
+
 import styles from './Signin.module.css'
 
 function Signin() {
   return (
+    <>
+    <Typography variant="h4" sx={{textAlign:"center", margin:"20px", color:"#002153"}}> LOGIN</Typography>
       <div>
           <div className={styles.bodycontent}>
           <div className={styles.contentcard}>
@@ -32,16 +36,15 @@ function Signin() {
         <button type="submit" className="btn btn-primary float-right">
           Register
         </button>
+        
+        
       </form>
     </div>
           </div>
           </div>
          
-   
-   
-        
-
     </div>
+    </>
   )
 }
 
